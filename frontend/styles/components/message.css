@@ -1,0 +1,35 @@
+.message {
+    max-width: 70%;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  .message--user {
+    align-self: flex-end;
+    background: #0084ff;
+    color: white;
+  }
+  
+  .message--bot {
+    align-self: flex-start;
+    background: #e5e5e5;
+    color: black;
+  }
+  
+  .message__text {
+    margin: 0;
+  }
+  
+  .message__timestamp {
+    font-size: 10px;
+    display: block;
+    text-align: right;
+  }
+  
+  .message__read {
+    font-size: 10px;
+    color: lightblue;
+  }
+  

@@ -1,0 +1,35 @@
+.chat {
+  width: 400px;
+  margin: auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat__history {
+  height: 300px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.chat__input-box {
+  display: flex;
+  align-items: center;
+}
+
+.chat__input {
+  flex: 1;
+  padding: 5px;
+}
+
+.chat__button, .chat__button--upload {
+  padding: 5px 10px;
+  background: blue;
+  color: white;
+  margin-left: 5px;
+  cursor: pointer;
+}
